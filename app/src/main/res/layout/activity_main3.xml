@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/background"
+    android:backgroundTintMode="multiply"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/howto" />
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/back"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/txtA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOW TO PLAY"
+        android:textColor="#FFF"
+        android:fontFamily="@font/night_machine"
+        android:textSize="36sp"
+        android:layout_below="@id/back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"/>
+    <ImageView
+        android:id="@+id/imgA3"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_below="@id/txtA3"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/playhow"/>
+    <TextView
+        android:id="@+id/txtA31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_below="@id/imgA3"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:paddingStart="30dp"
+        android:textSize="20sp"
+        android:text="ตั้งโทรศัพท์ให้ขนานกับตัว "/>
+    <TextView
+        android:id="@+id/txtA312"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_below="@id/txtA31"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="20sp"
+        android:text="เอียงโทรศัพท์ทางซ้ายเพื่อบังคับเครื่องบินไปทางซ้าย"/>
+    <TextView
+        android:id="@+id/txtA3123"
+        android:layout_below="@id/txtA312"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="20sp"
+        android:text="เอียงโทรศัพท์ทางซ้ายเพื่อบังคับเครื่องบินไปทางซ้าย"/>
+    <TextView
+        android:layout_below="@id/txtA3123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="20sp"
+        android:text="ใช้นิ้วโป้งสัมผัสที่หน้าจอเพื่อเป็นการยิง"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="20sp"
+        android:text="ขอบคุณภาพเครื่องบินจาก https://www.freepik.com/free-vector"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

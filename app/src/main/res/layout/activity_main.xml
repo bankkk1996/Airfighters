@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/air"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/highScoreTxt"
+        android:layout_marginTop="-50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/air"/>
+    <ImageView
+        android:id="@+id/imageAir"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/air"
+        android:layout_marginTop="-50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/original_00_01"/>
+    <ImageView
+        android:id="@+id/playBtn"
+        android:layout_width="240dp"
+        android:layout_height="155dp"
+        android:src="@drawable/start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-5dp"
+        android:layout_below="@id/imageAir" />
+    <ImageView
+        android:id="@+id/chooseBtn"
+        android:layout_width="150dp"
+        android:layout_height="105dp"
+        android:layout_below="@id/playBtn"
+        android:src="@drawable/choose"
+        android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:text="High Score"
+        android:id="@+id/highScoreTxt"
+        android:fontFamily="@font/night_machine"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/volumeBtn"
+        android:src="@drawable/sound" />
+    <ImageView
+        android:id="@+id/howToPlay"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/info"/>
+
+</RelativeLayout>
